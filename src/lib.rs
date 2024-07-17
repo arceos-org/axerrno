@@ -1,16 +1,6 @@
-//! Error code definition used by [ArceOS](https://github.com/arceos-org/arceos).
-//!
-//! It provides two error types and the corresponding result types:
-//!
-//! - [`AxError`] and [`AxResult`]: A generic error type similar to
-//!   [`std::io::ErrorKind`].
-//! - [`LinuxError`] and [`LinuxResult`]: Linux specific error codes defined in
-//!   `errno.h`. It can be converted from [`AxError`].
-//!
-//! [`std::io::ErrorKind`]: https://doc.rust-lang.org/std/io/enum.ErrorKind.html
-
-#![no_std]
+#![cfg_attr(not(test), no_std)]
 #![feature(variant_count)]
+#![doc = include_str!("../README.md")]
 
 use core::fmt;
 
