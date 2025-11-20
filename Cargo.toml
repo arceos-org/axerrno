@@ -12,5 +12,5 @@ keywords = ["arceos", "errno"]
 categories = ["no-std", "os"]
 
 [dependencies]
+axerrno = "0.2"
 log = "0.4"
-strum = { version = "0.27.2", default-features = false, features = ["derive"] }
