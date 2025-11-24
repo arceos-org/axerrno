@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["AxErrorKind","LinuxError"],"macro":["ax_bail","ax_err","ax_err_type","ensure"],"struct":["AxError"],"type":["AxResult","LinuxResult"]};
